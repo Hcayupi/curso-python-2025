@@ -1,0 +1,51 @@
+<!-- INICIO --  TRANSACCIONES -->
+
+<div class="row mt-4 g-4">
+
+    <div class="col-md-6">
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <h5>Depositar fondos</h5>
+                <input id="idMontoDeposito" type="number" class="form-control mb-3" placeholder="Monto">
+                <div class="mb-3">
+                    <textarea class="form-control  h-25" id="idDetalleDeposito" rows="3"
+                        placeholder="Descripción"></textarea>
+                </div>
+                <button id="idButtonMonto" class="btn btn-success w-100">Depositar</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <h5>Retirar fondos</h5>
+                <input id="idMontoRetiro" type="number" class="form-control mb-3" placeholder="Monto">
+                <div class="mb-3">
+                    <textarea class="form-control  h-25" id="idDescripcionRetiro" rows="3"
+                        placeholder="Descripción"></textarea>
+                </div>
+                <button id="idRetirarButton" class="btn btn-danger w-100">Retirar</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="card shadow-sm mt-4">
+    <div class="card-body">
+        <h5>Historial de transacciones</h5>
+        <table id="idTablaHistorial" class="table table-striped mt-3">
+            <thead>
+                <tr>
+                    <th>Fecha</th>
+                    <th>Tipo</th>
+                    <th>Detalle</th>
+                    <th>Monto</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+</div>
+<!-- FIN --  TRANSACCIONES -->

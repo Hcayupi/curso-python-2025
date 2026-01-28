@@ -1,0 +1,148 @@
+:root {
+    --green-dark: #1b4332;
+    --green-main: #2d6a4f;
+    --green-light: #52b788;
+    --green-soft: #d8f3dc;
+}
+
+
+.sidebar {
+    width: 240px;
+    transition: width 0.3s ease;
+    background-color: var(--green-dark);
+}
+
+.sidebar.collapsed {
+    width: 70px;
+}
+
+.sidebar h4 {
+    color: var(--green-soft);
+}
+
+.sidebar.collapsed .nav-link span,
+.sidebar.collapsed .sidebar-title {
+    display: none;
+}
+
+.sidebar .nav-link {
+    color: #ffffff;
+    border-radius: 6px;
+    padding: 10px 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.sidebar.collapsed .nav-link {
+    justify-content: center;
+}
+
+.sidebar .nav-link:hover,
+.sidebar .nav-link.active {
+    background-color: var(--green-main);
+}
+
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 2px solid var(--green-soft);
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+}
+
+.card h6 {
+    color: #6c757d;
+}
+
+.card h2 {
+    color: var(--green-main);
+}
+
+.btn-primary {
+    background-color: var(--green-main);
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: var(--green-dark);
+}
+
+.btn-success {
+    background-color: var(--green-light);
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: var(--green-main);
+}
+
+.table thead {
+    background-color: var(--green-soft);
+}
+
+.table tbody tr:hover {
+    background-color: #f1fdf6;
+}
+
+@media (max-width: 768px) {
+
+    /* Sidebar oculto por defecto */
+    .sidebar {
+        position: fixed;
+        left: -240px;
+        top: 0;
+        height: 100%;
+        z-index: 1050;
+        transition: left 0.3s ease;
+    }
+
+    /* Sidebar visible */
+    .sidebar.show {
+        left: 0;
+    }
+
+    /* Evita scroll cuando el menú está abierto */
+    body.menu-open {
+        overflow: hidden;
+    }
+}
+
+/* Fondo oscuro al abrir sidebar en móvil */
+.overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1040;
+    display: none;
+}
+
+.overlay.show {
+    display: block;
+}
+
+.chart-container {
+  position: relative;
+  width: 100%;
+  height: 360px; /* desktop */
+}
+
+@media (max-width: 992px) {
+  .chart-container {
+    height: 300px; /* tablet */
+  }
+}
+
+@media (max-width: 576px) {
+  .chart-container {
+    height: 240px; /* mobile */
+  }
+}
+
+/* asegura que el canvas se adapte */
+.chart-container canvas {
+  width: 100% !important;
+  height: 100% !important;
+}

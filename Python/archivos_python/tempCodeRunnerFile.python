@@ -1,0 +1,9 @@
+from pynput import mouse
+
+def al_hacer_click(x, y, boton, presionado):
+    if presionado:
+        print(f"Click detectado en la posición: ({x}, {y}) con {boton}")
+
+# Inicia el "escuchador" (listener)
+with mouse.Listener(on_click=al_hacer_click) as listener:
+    listener.join()

@@ -1,0 +1,5 @@
+-- Inicio del texto -- 
+Hola, este es un archivo de prueba.
+Estamos aprendiendo a leer archivos en Python.
+Cada línea sirve para practicar distintos métodos de lectura.
+-- Fin del texto --.

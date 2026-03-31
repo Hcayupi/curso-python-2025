@@ -1,0 +1,5 @@
+id,nombre,apellido,email,telefono,direccion,tipo,descuento,empresa
+1,MARCOS,SILVA,e@email.com,234223,Las Vegas,ClienteRegular,,
+2,ANA,Gutierrez,a@gmail.com,1223123,Sandes222,ClientePremium,0.0,
+3,Iansa,ASDSAD,ams@asdsad,1231,sdadasd,ClientePremium,0.0,
+5,asda,asdasd,asdadas,asd12313,dasdas,ClientePremium,5.0,

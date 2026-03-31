@@ -1,0 +1,12 @@
+-- Inicio del texto -- 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    Nam leo ex, lobortis sit amet elit a, iaculis ultrices nunc. 
+In ac velit purus. Sed ullamcorper iaculis pulvinar. Fusce vitae 
+nulla ultrices, pellentesque eros in, tempus neque. Nullam non 
+pharetra mauris. Lorem ipsum dolor sit amet, consectetur adipiscing 
+elit. Suspendisse potenti. Proin sed lorem at metus 
+imperdiet tempus. Nulla viverra, tellus a semper pharetra, magna 
+neque interdum ante, et aliquet tellus ipsum in mi. Duis ornare 
+feugiat metus, vitae pretium nisl iaculis vitae. Sed in porta nunc.
+    Nulla ut massa a libero vehicula hendrerit gravida in tellus. Vivamus sed velit non at.
+-- Fin del texto --.

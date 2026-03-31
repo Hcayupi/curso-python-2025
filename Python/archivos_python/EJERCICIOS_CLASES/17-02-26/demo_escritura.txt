@@ -1,0 +1,6 @@
+Línea 1 escrita con write
+Línea 2 escrita con write
+Línea 3 escrita con writeLines
+Línea 4 escrita con writeLines
+Línea 5 escrita con writeLines
+Línea 6 escrita con writeLines
